@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "35 years of pigment regulatory expertise. FDA, REACH, FSSAI compliance consulting for pigment manufacturers. SDS authoring, compliance statements, and regulatory consulting by Hemant M. Thombare.",
   keywords:
     "pigment regulatory, SDS authoring, REACH compliance, FDA pigment, FSSAI color additive, pigment compliance India, regulatory consulting pigments",
+  icons: {
+    icon: "/pigmentregulatory/favicon.svg",
+  },
 };
 
 export default function RootLayout({
