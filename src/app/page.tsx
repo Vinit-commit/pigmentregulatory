@@ -43,10 +43,14 @@ export default function Home() {
               </svg>
             </Link>
           </div>
-          <p className="hero-animate-delay-3 mt-6 sm:mt-10 text-xs sm:text-sm md:text-base text-white/50">
-            Trusted by pigment manufacturers across India for FDA, REACH
-            &amp; FSSAI compliance
-          </p>
+          <div className="hero-animate-delay-3 mt-6 sm:mt-10 flex items-center justify-center gap-3">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden ring-2 ring-white/30 flex-shrink-0">
+              <img src="/pigmentregulatory/founder.jpg" alt="Hemant M. Thombare" className="w-full h-full object-cover object-top" />
+            </div>
+            <p className="text-xs sm:text-sm md:text-base text-white/50 text-left">
+              Trusted by pigment manufacturers across India<br className="hidden sm:block" /> for FDA, REACH &amp; FSSAI compliance
+            </p>
+          </div>
         </div>
       </section>
 

@@ -32,8 +32,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <AnimateOnScroll animation="slide-left">
               <div className="flex flex-col items-center">
-                <div className="w-36 h-36 sm:w-48 sm:h-48 rounded-full bg-gradient-to-br from-primary to-primary-light flex items-center justify-center mb-6 shadow-xl">
-                  <span className="text-white text-4xl sm:text-5xl font-bold">HT</span>
+                <div className="w-36 h-36 sm:w-48 sm:h-48 rounded-full overflow-hidden mb-6 shadow-xl ring-4 ring-primary/20">
+                  <img src="/pigmentregulatory/founder.jpg" alt="Hemant M. Thombare — Founder & Principal Consultant" className="w-full h-full object-cover object-top" />
                 </div>
                 <h2 className="text-2xl font-bold text-text">
                   Hemant M. Thombare
