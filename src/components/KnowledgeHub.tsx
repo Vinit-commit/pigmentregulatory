@@ -7,8 +7,7 @@ const blocks = [
   {
     title: "Safety Data Sheets (SDS)",
     subtitle: "The Foundation of Chemical Compliance",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/sds-compliance.jpg",
     alt: "Professional reviewing compliance documents at desk",
     example:
       "Ravi, a quality manager at a pigment plant in Gujarat, lost a ₹45L export order when their European buyer found outdated SDS documents missing GHS Rev 9 classifications. After we updated their entire SDS library, they secured 3 new EU clients within 6 months.",
@@ -25,8 +24,7 @@ const blocks = [
   {
     title: "REACH Compliance",
     subtitle: "Gateway to EU Markets",
-    image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/reach-meeting.jpg",
     alt: "Team of professionals discussing compliance strategy in meeting room",
     example:
       "Suresh, an export director at a Pune-based pigment company, had shipments held at Rotterdam port for 3 weeks due to incomplete REACH registration. Our team completed the full REACH dossier in 45 days, and his products now move through EU customs without any delays.",
@@ -42,8 +40,7 @@ const blocks = [
   {
     title: "FDA Color Additive Regulations",
     subtitle: "US Market Access for Pigments",
-    image:
-      "https://images.unsplash.com/photo-1581093458791-9d42e3c27207?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/fda-lab.jpg",
     alt: "Laboratory technician testing chemical samples in modern lab",
     example:
       "Meena, heading product development at a Mumbai colorant firm, couldn't understand why her iron oxide samples were being rejected by US cosmetics brands. We identified that her products needed FDA 21 CFR Part 73 exemption documentation — once filed, she secured two major US cosmetics clients.",
@@ -59,8 +56,7 @@ const blocks = [
   {
     title: "GHS Classification & Labelling",
     subtitle: "Global Hazard Communication",
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/ghs-factory.jpg",
     alt: "Factory worker inspecting chemical products with safety labels",
     example:
       "Ankit, a plant safety officer in Vadodara, discovered during an audit that 60% of his facility's pigment labels had incorrect GHS pictograms. After our comprehensive GHS review and relabelling, the plant passed its next safety audit with zero non-conformities.",
@@ -76,8 +72,7 @@ const blocks = [
   {
     title: "Why Compliance Matters",
     subtitle: "The Business Case for Getting it Right",
-    image:
-      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/compliance-handshake.jpg",
     alt: "Business professionals shaking hands after successful compliance deal",
     example:
       "Prashant, MD of a Kolkata pigment firm, was spending ₹15L annually on rejected shipments and re-testing fees. Within one year of our compliance programme, his rejection rate dropped to zero and he added 4 new international clients — the programme paid for itself in 3 months.",
@@ -93,8 +88,7 @@ const blocks = [
   {
     title: "Global Export Documentation",
     subtitle: "Country-Specific Regulatory Packages",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop&auto=format",
+    image: "/pigmentregulatory/images/export-shipping.jpg",
     alt: "Shipping containers at port ready for international export",
     example:
       "Deepa, an operations head at a Hyderabad pigment exporter, was preparing the same generic SDS for all markets. After we created market-specific documentation packages for USA, EU, Japan, and Korea, her customs clearance time dropped from 2 weeks to 3 days on average.",
