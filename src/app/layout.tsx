@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords:
     "pigment regulatory, SDS authoring, REACH compliance, FDA pigment, FSSAI color additive, pigment compliance India, regulatory consulting pigments",
   icons: {
-    icon: "/pigmentregulatory/favicon.svg",
+    icon: "/favicon.svg",
   },
 };
 
