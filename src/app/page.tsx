@@ -150,7 +150,7 @@ export default function Home() {
               </h3>
               <p className="mt-2 text-sm sm:text-base text-text-light leading-relaxed">
                 End-to-end compliance for SDS, TDS, regulatory dossiers, and
-                product registrations.
+                product compliance.
               </p>
               <Link href="/services" className="mt-4 sm:mt-5 inline-flex items-center text-primary font-medium transition-all duration-300 hover:text-accent">
                 Learn More
@@ -173,7 +173,7 @@ export default function Home() {
               </h3>
               <p className="mt-2 text-sm sm:text-base text-text-light leading-relaxed">
                 Preparation of compliance statements for your products &mdash;
-                ready for customer filing and regulatory submissions.
+                ready for customer formats filing and regulatory submissions.
               </p>
               <Link href="/services" className="mt-4 sm:mt-5 inline-flex items-center text-primary font-medium transition-all duration-300 hover:text-accent">
                 Learn More

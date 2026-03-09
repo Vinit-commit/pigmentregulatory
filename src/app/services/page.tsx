@@ -113,7 +113,7 @@ export default function ServicesPage() {
             </h2>
             <p className="mt-4 text-text-light text-base sm:text-lg leading-relaxed max-w-3xl">
               Preparation of compliance statements for your products &mdash;
-              ready for customer filing and regulatory submissions across
+              ready for customer formats filing and regulatory submissions across
               international markets.
             </p>
 
@@ -141,7 +141,7 @@ export default function ServicesPage() {
                 </h3>
                 <ul className="mt-4 space-y-3">
                   {[
-                    "REACH pre-registration",
+                    "REACH compliance",
                     "CLP classification",
                     "SDS authoring (EU format)",
                     "SVHC screening",
@@ -193,7 +193,7 @@ export default function ServicesPage() {
                 <ul className="mt-4 space-y-3">
                   {[
                     "TSCA inventory check",
-                    "FDA color additive petition support",
+                    "FDA color additive compliance",
                     "SDS per OSHA HazCom",
                     "California Prop 65 compliance",
                     "EPA compliance review",
@@ -239,7 +239,7 @@ export default function ServicesPage() {
                   </svg>
                 </div>
                 <h3 className="mt-4 text-xl font-semibold text-text">
-                  Japan / Korea / China Package
+                  Asia-Pacific Market Package
                 </h3>
                 <ul className="mt-4 space-y-3">
                   {[
