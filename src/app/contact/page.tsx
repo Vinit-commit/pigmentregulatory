@@ -133,10 +133,10 @@ export default function ContactPage() {
                         Email
                       </p>
                       <a
-                        href="mailto:your-email@domain.com"
+                        href="mailto:hemant@pigmentregulatory.com"
                         className="text-primary font-semibold hover:underline"
                       >
-                        your-email@domain.com
+                        hemant@pigmentregulatory.com
                       </a>
                     </div>
                   </div>
