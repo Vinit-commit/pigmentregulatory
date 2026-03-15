@@ -5,6 +5,9 @@ export const metadata = {
   title: "Services — PigmentRegulatory",
   description:
     "Expert pigment regulatory compliance services including SDS authoring, REACH registration, FDA compliance, and compliance statement preparation.",
+  alternates: {
+    canonical: "https://pigmentregulatory.com/services",
+  },
 };
 
 export default function ServicesPage() {

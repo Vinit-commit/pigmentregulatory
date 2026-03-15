@@ -32,6 +32,8 @@ jobs:
 
       - name: Build
         run: npx next build
+        env:
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: G-EMG7YWK5SZ
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

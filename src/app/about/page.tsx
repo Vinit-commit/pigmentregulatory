@@ -6,6 +6,9 @@ export const metadata = {
   title: "About — PigmentRegulatory | Hemant M. Thombare",
   description:
     "Meet Hemant M. Thombare — 35 years of pigment regulatory expertise in the Global Chemical Industries, now helping manufacturers achieve global compliance.",
+  alternates: {
+    canonical: "https://pigmentregulatory.com/about",
+  },
 };
 
 export default function AboutPage() {

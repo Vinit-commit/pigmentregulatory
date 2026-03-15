@@ -5,6 +5,9 @@ export const metadata = {
   title: "Regulatory Guides & Resources — PigmentRegulatory",
   description:
     "Free pigment regulatory guides, compliance checklists, and resources for FDA, REACH, and FSSAI compliance.",
+  alternates: {
+    canonical: "https://pigmentregulatory.com/resources",
+  },
 };
 
 const guides = [

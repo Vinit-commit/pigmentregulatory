@@ -5,6 +5,9 @@ export const metadata = {
   title: "Industries Served — PigmentRegulatory",
   description:
     "Pigment regulatory compliance services for paints & coatings, plastics & packaging, and textile industries.",
+  alternates: {
+    canonical: "https://pigmentregulatory.com/industries",
+  },
 };
 
 const industries = [

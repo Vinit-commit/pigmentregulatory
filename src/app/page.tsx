@@ -2,6 +2,15 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import KnowledgeHub from "@/components/KnowledgeHub";
 
+export const metadata = {
+  title: "PigmentRegulatory — Expert Pigment Compliance Consulting",
+  description:
+    "Protect your pigment business from regulatory shutdowns. 35 years of expertise in SDS authoring, REACH, FDA, and FSSAI compliance for pigment manufacturers.",
+  alternates: {
+    canonical: "https://pigmentregulatory.com",
+  },
+};
+
 export default function Home() {
   return (
     <>
