@@ -44,11 +44,11 @@ export default function ServicesPage() {
                 </h2>
               </div>
               <div className="flex-shrink-0 rounded-lg bg-accent/10 px-4 sm:px-6 py-2 sm:py-3 text-center">
-                <p className="text-xs sm:text-sm text-text-light">Starting from</p>
-                <p className="text-xl sm:text-2xl font-bold text-accent">
-                  &#x20B9;3L
+                <p className="text-xs sm:text-sm text-text-light">Pricing</p>
+                <p className="text-base sm:text-lg font-bold text-accent">
+                  Custom Quote
                 </p>
-                <p className="text-sm text-text-light">per product line</p>
+                <p className="text-sm text-text-light">based on your needs</p>
               </div>
             </div>
 
@@ -361,9 +361,9 @@ export default function ServicesPage() {
             {/* Value Proposition */}
             <div className="mt-8 rounded-lg bg-surface-dark border border-border p-6">
               <p className="text-text font-semibold text-lg leading-relaxed">
-                &ldquo;Hiring a full-time regulatory head costs
-                &#x20B9;15&ndash;30L/year. Get the same expertise at a fraction
-                of the cost.&rdquo;
+                &ldquo;Why hire a full-time regulatory head when you can get
+                the same expertise on demand? Let&apos;s discuss what works
+                for your business.&rdquo;
               </p>
             </div>
           </div>
