@@ -24,6 +24,17 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Fire GA4 conversion event
+    if (typeof window !== "undefined" && (window as { gtag?: (...args: unknown[]) => void }).gtag) {
+      (window as { gtag: (...args: unknown[]) => void }).gtag("event", "form_submit", {
+        event_category: "lead",
+        event_label: "contact_form",
+        company: formData.companyName,
+        industry: formData.industry,
+      });
+    }
+
     const msg = `Hi Hemant, I need help with pigment regulatory compliance.%0A%0A*Name:* ${encodeURIComponent(formData.fullName)}%0A*Company:* ${encodeURIComponent(formData.companyName)}%0A*Email:* ${encodeURIComponent(formData.email)}${formData.phone ? `%0A*Phone:* ${encodeURIComponent(formData.phone)}` : ""}${formData.industry ? `%0A*Industry:* ${encodeURIComponent(formData.industry)}` : ""}%0A%0A*Message:*%0A${encodeURIComponent(formData.message)}`;
     window.open(`https://wa.me/917887686974?text=${msg}`, "_blank");
     setSubmitted(true);

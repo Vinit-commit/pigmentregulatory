@@ -1,11 +1,21 @@
 "use client";
 
 export default function WhatsAppButton() {
+  const trackClick = () => {
+    if (typeof window !== "undefined" && (window as { gtag?: (...args: unknown[]) => void }).gtag) {
+      (window as { gtag: (...args: unknown[]) => void }).gtag("event", "whatsapp_click", {
+        event_category: "lead",
+        event_label: "floating_button",
+      });
+    }
+  };
+
   return (
     <a
       href="https://wa.me/917887686974?text=Hi%20Hemant%2C%20I%20need%20help%20with%20pigment%20regulatory%20compliance."
       target="_blank"
       rel="noopener noreferrer"
+      onClick={trackClick}
       className="fixed bottom-6 right-6 z-50 bg-[#25d366] hover:bg-[#20b858] text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl animate-float"
       aria-label="Chat on WhatsApp"
     >
